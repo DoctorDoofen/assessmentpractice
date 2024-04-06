@@ -38,13 +38,11 @@ state.
 ***********************************************************************/
 
 function filterUserProfiles(users, filter) {
-  let user = [];
-  for (let person of users) {
-    if (filter(person) === true) {
-      user.push(person.name)
-    }
+  let people = [];
+  for (let profile of users) {
+    if (filter(profile)) people.push(profile.name)
   }
-  return user;
+  return people;
 }
 
 // To test the example, comment out the code below and run the following command

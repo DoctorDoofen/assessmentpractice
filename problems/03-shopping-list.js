@@ -21,11 +21,10 @@ console.log(clothesList); // ['tshirt', 'pants']
 
 function shoppingList(list) {
 
-  let addItem = ((item) => {
-    list.push(item);
-
-  })
-  return addItem;
+  return function (item) {
+    list.push(item)
+    return list;
+  }
 }
 
 const groceryList = ['eggs']
