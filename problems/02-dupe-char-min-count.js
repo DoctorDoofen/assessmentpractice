@@ -12,12 +12,15 @@ duplicateCharMinCount("What about a longer string?", 3) // ["a", "t", " "]
 ***********************************************************************/
 
 function countCharacters(string) {
-	// Your code here 
+
 }
 
 function duplicateCharMinCount(string, minCount) {
-	// Your code here 
+
 }
 
+duplicateCharMinCount("apple", 2) // ["p"]
+duplicateCharMinCount("banana", 2) // ["a", "n"]
+duplicateCharMinCount("What about a longer string?", 3) // ["a", "t", " "]
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = duplicateCharMinCount;
